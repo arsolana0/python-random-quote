@@ -7,7 +7,8 @@ def primary():
     quotes = f.readlines()
     f.close()
      
-    print(quotes[rnd])
+    print(quotes[rnd], "\n")
+    print(quotes[rnd], "\n")
 
 if __name__== "__main__":
     primary()
